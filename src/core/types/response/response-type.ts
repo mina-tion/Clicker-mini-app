@@ -1,0 +1,1 @@
+export type ResponseType = 'SUCCESS' | 'ERROR' | 'NOT_FOUND' | 'CAPTCHA_ERROR'| 'NO_WALLET'| 'AUTH_ERROR'| 'ALREADY_EXISTS'

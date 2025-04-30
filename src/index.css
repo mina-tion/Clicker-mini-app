@@ -1,0 +1,29 @@
+:root {
+  font-family: 'Roboto', Arial, sans-serif;
+  font-weight: 400;
+
+  background-color: #171717;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  width: 100vw;
+  min-height: 100vh !important;
+  height: 100%;
+  
+  display: flex;
+  touch-action: pan-y;
+}
+
+.prevent-select {
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+  -webkit-touch-callout: none; /* iOS Safari */
+  -moz-user-select: none; /* Old versions of Firefox */
+}
